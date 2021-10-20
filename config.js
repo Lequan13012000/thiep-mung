@@ -1,7 +1,7 @@
 const nameGirl = 'Em';
 const giftUrl = 'http://nodemy.vn';
 const eventName = 'Chúc Mừng 20-10';
-const titleCard = 'Tặng người ấy';
+const titleCard = 'You chạm vào điiii';
 const contentCard = 'Món quà cuối cùng cho bé Quỳnh hum nay <3';
 
 // phần dưới dành cho các bạn biết code, nếu muốn chỉnh ảnh đơn giản với base64
