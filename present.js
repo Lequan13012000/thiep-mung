@@ -28,15 +28,15 @@ function init() {
 //     presentImage.appendChild(_giftLink);
 //   }
   
-//   if (gift_image_url) {
-//     _giftImg = document.createElement("img");
-//     _giftImg.src = gift_image_url;
-//     if(_giftLink) {
-//       _giftLink.appendChild(_giftImg);
-//     } else {
-//       presentImage.appendChild(_giftImg);
-//     }
-//   }
+  if (gift_image_url) {
+    _giftImg = document.createElement("img");
+    _giftImg.src = gift_image_url;
+    if(_giftLink) {
+      _giftLink.appendChild(_giftImg);
+    } else {
+      presentImage.appendChild(_giftImg);
+    }
+  }
     
   present.addEventListener("click", function(e){
     present.classList.toggle("open");
